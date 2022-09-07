@@ -1,0 +1,24 @@
+.card-container {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  border-radius: 25px;
+  background-color: darkgray;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.card-left-Side {
+  width: 40%;
+}
+
+.card-left-Side img {
+  margin: 5%;
+  clip-path: circle(50% at 50% 50%);
+}
+
+.card-right-side {
+  width: 60%;
+}
